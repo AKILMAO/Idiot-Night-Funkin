@@ -63,7 +63,7 @@ class FreeplayState extends MusicBeatState
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("On Pornhub Search", null);
 		#end
 
 		if(WeekData.weeksList.length < 1)
@@ -103,7 +103,7 @@ class FreeplayState extends MusicBeatState
 		}
 		Mods.loadTopMod();
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('menupornhub'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();
